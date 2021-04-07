@@ -1,0 +1,245 @@
+.top{
+			height: 245px;
+		    width: 608px;
+		    position: relative;
+		    top: -492px;
+		    left: 330px;
+		}
+		.top span{
+			font-size: 30px;
+		    position: absolute;
+		    top: 10px;
+		    left: 10px;
+		}
+		.top p{
+			font-size: 15px;
+		    position: absolute;
+		    top: 53px;
+		    left: 10px;
+		}
+		form{
+			     position: absolute;
+				    top: 116px;
+				    left: 10px;
+		}
+		button{
+			    margin: 10px;
+			    background:#d7e0ff;
+			    height: 46px;
+			    width: 406px;
+			    cursor: pointer;
+			    font-size: 24px;
+			    font-weight: 500;
+			    letter-spacing: 1px;
+			    transition: .5s;
+			    border-radius: 10px 10px 10px 10px;
+			    border: solid #eee thin;
+		}
+		button:hover{
+			transition: 1s;
+			color: white;
+			background: #fd4747;
+		}
+
+	.body{
+		    height: 118px;
+		    width: 608px;
+		    position: relative;
+		    top: -489px;
+		    left: 344px;
+	}
+	.body .rain{
+		font-size: 16px;
+		transition: 1s;
+	}
+	.body .rain:hover{
+		color: #737ea5;
+	}
+	.list{
+	    height:222px;
+	    width: 350px;
+	    position: relative;
+	    top: -500px;
+	    left: 217px;
+	}
+	.list ul a{
+		font-size: 20px;
+	}
+	.list ul a:hover{
+		color: #737ea5;
+	}
+	.list ul a:hover+li{
+		display: block;
+		transition: 1s;
+	}
+	.list ul li{
+		float: left;
+		display: none;
+		transition: 1s;
+	}
+	.img{
+	height: 445px;
+    width: 647px;
+    position: relative;
+    top: 53px;
+    right: 327px;
+    border: 0px;
+    border-radius: 13px;
+    background-image: url(../images/D12.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+	}
+	.img div{
+    height: 51px;
+    width: 76px;
+    border: 0px;
+    border-radius: 6px;
+    transition: .6s;
+    z-index: 9;
+	}
+	.d_1{
+		position: absolute;
+	    bottom: 17px;
+	    left: 101px;
+	    background-image: url(../images/D12.png);
+	    background-repeat:no-repeat;
+	    background-size:100% 100%;
+	}
+	.d_1:hover{
+		height: 445px;
+    	width: 647px;
+    	position: absolute;
+    	bottom: 0px;
+    	left: 0px;
+    	border: 0px;
+    	border-radius: 13px;
+		background-image: url(../images/D12.png);
+	    background-repeat:no-repeat;
+	    background-size:100% 100%;
+	    z-index: 99;
+	}
+	.d_2{
+		position: absolute;
+	    bottom: 17px;
+	    left: 188px;
+	    background-image: url(../images/D22.png);
+	    background-repeat:no-repeat;
+	    background-size:100% 100%;
+	}
+	.d_2:hover{
+		height: 445px;
+    	width: 647px;
+    	position: absolute;
+    	bottom: 0px;
+    	left: 0px;
+    	border: 0px;
+    	border-radius: 13px;
+		background-image: url(../images/D22.png);
+	    background-repeat:no-repeat;
+	    background-size:100% 100%;
+		z-index: 99;
+	}
+	.d_3{
+	    position: absolute;
+	    bottom: 17px;
+	    left: 275px;
+	    background-image: url(../images/D3.png);
+	    background-repeat:no-repeat;
+	    background-size:100% 100%;
+	}
+	.d_3:hover{
+		height: 445px;
+    	width: 647px;
+    	position: absolute;
+    	bottom: 0px;
+    	left: 0px;
+    	border: 0px;
+    	border-radius: 13px;
+		background-image: url(../images/D3.png);
+	    background-repeat:no-repeat;
+	    background-size:100% 100%;
+		z-index: 99;
+	}
+	.d_4{
+		position: absolute;
+	    bottom: 17px;
+	    left: 361px;
+	    background-image: url(../images/D4.png);
+	    background-repeat:no-repeat;
+	    background-size:100% 100%;
+	}
+	.d_4:hover{
+		height: 445px;
+    	width: 647px;
+    	position: absolute;
+    	bottom: 0px;
+    	left: 0px;
+    	border: 0px;
+    	border-radius: 13px;
+		background-image: url(../images/D4.png);
+	    background-repeat:no-repeat;
+	    background-size:100% 100%;
+		z-index: 99;
+	}
+	.d_5{
+		position: absolute;
+	    bottom: 17px;
+	    left: 448px;
+	    background-image: url(../images/D5.png);
+	    background-repeat:no-repeat;
+	    background-size:100% 100%;
+	}
+	.d_5:hover{
+		height: 445px;
+    	width: 647px;
+    	position: absolute;
+    	bottom: 0px;
+    	left: 0px;
+    	border: 0px;
+    	border-radius: 13px;
+		background-image: url(../images/D5.png);
+	    background-repeat:no-repeat;
+	    background-size:100% 100%;
+		z-index: 99;
+	}
+	.d_img{
+		height: 86px;
+	    width: 646px;
+	    position: relative;
+	    top: -34px;
+	    left:-326px;
+	    border: 0px;
+    	border-radius:0px 0px 13px 13px;
+	    filter:alpha(opacity=50);
+	    background-color:rgba(0,0,0,0.2);
+	    z-index:1;
+	}
+	.stroebutton{
+	height: 28px;
+    width: 229px;
+    padding: 10px;
+    position: relative;
+    bottom: 592px;
+    left: -340px;
+    border: 0px;
+    border-radius: 10px;
+    background:#d7e0ff;
+    transition: 1s;
+	}
+	.stroebutton:hover{
+	height: 28px;
+    width: 229px;
+    padding: 15px;
+    position: relative;
+    bottom: 592px;
+    left: -340px;
+    border: 0px;
+    border-radius: 10px;
+    background: #afd3e4;
+	}
+	.stroebutton a{
+	position: absolute;
+    left: 82px;
+	font-size: 21px;
+	}
+ body{ overflow-x:hidden; overflow-y:hidden;}

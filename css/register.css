@@ -1,0 +1,65 @@
+
+		.text{
+			position: relative;
+		    width:50%; 
+		    padding: 17px;
+		    background: #f5f5f5;
+		    color: #333;
+		    outline: none;
+		    box-shadow: none;
+		    margin: 12px 0;
+		    font-size: 18px;
+		    letter-spacing: 1px;
+		    border-radius: 10px 10px 10px 10px;
+		    border: solid #eee thin;
+		}
+		.registerbox{
+			    margin: 10px;
+			    padding: 10px;
+			    height: 497px;
+			    width: 700px;
+			    border-bottom: 1px solid #e1e1e1;
+			    box-shadow: 0px 0px 10px #ccc;
+			    border-radius: 25px;
+			    position: relative;
+			    bottom: 0px;
+				left: 305px;
+		}
+		.tableBth{
+			position: relative;
+			left: 10px;
+		}
+		form{
+			position: relative;
+			top: 32px;
+    		left: 145px;
+		}
+		input:hover{
+			transition: 1s;
+			background-color:#d6ccd3;
+		}
+		section a{
+			color: #737ea5;
+		}
+		section a:hover{
+			color: #E60012;
+		}
+		button{
+			display: block;
+			margin: 10px;
+		    background: #737ea5;
+		    height: 50px;
+		    width: 200px;
+		    color: #fff;
+		    cursor: pointer;
+		    font-size: 26px;
+		    font-weight: 500;
+		    letter-spacing: 1px;
+		    transition: .5s;
+		    border-radius: 10px 10px 10px 10px;
+		    border: solid #eee thin;
+		}
+		button:hover{
+			transition: .5s;
+			background: #e91a2a;
+		}

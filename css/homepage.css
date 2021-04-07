@@ -1,0 +1,96 @@
+  .registerbox{
+			    margin: 10px;
+			    padding: 10px;
+			    height: 25px;
+			    width: 172px;
+			    position: relative;
+			    top: 183px;
+			    left: 42%;
+			    filter:alpha(opacity=50);
+	   			 background-color:rgba(255,255,255,0.6);
+			    border-radius: 10px;
+			    text-align: center;
+			    transition: .6s;
+			    z-index: 3;
+			    
+		}
+		
+       		  .registerbox:hover{
+       		  	margin: 10px;
+			    padding: 10px;
+			    height: 500px;
+			    width: 750px;
+			    position: relative;
+			    top: 42px;
+    			left: 324px;
+    			color: white;
+       		  	background-image: url(../images/1.jpg);
+       		  	background-repeat:no-repeat;
+                background-size:100% 100%;
+			    border-bottom: 1px solid #e1e1e1;
+			    box-shadow: 0px 0px 10px #ccc;
+			    border-radius: 25px;
+			    font-size:40px;
+			    z-index: 5;
+		}
+		.registerbox:hover+.registerbox_a{
+       		color:white; 
+       		}
+		.registerbox:hover+.top{
+       		display: none;
+       		}
+
+	body{
+		background: url(../images/background.png) no-repeat center center fixed;
+				/*兼容浏览器版本*/
+                -webkit-background-size: cover;
+				-o-background-size: cover;                
+				background-size: cover;
+		overflow-x:hidden;
+	overflow-x:hidden; overflow-y:hidden;
+		}
+		.news{
+	    height: 244px;
+    width: 493px;
+    position: relative;
+        top: 182px;
+    left: -245px;
+    border: 0px;
+    border-radius: 25px;
+   filter:alpha(opacity=50);
+	    background-color:rgba(255,255,255,0.6);
+    font-size: 16px;
+    padding: 17px;
+    transition: .6s;
+		}
+		.news:hover{
+    padding: 27px;
+    z-index: 30;
+		}
+		.news span{
+			float: right;
+		}
+		.news ul a{
+			color:#684f79;
+		}
+.newsimg{
+	height: 274px;
+    width: 493px;
+    position: relative;
+        top: -17px;
+    left: 239px;
+    border: 0px;
+    border-radius: 25px;
+   filter:alpha(opacity=50);
+	    background-color:rgba(255,255,255,0.6);
+	    background-image: url(../images/news.png);
+       		  	background-repeat:no-repeat;
+                background-size:100% 100%;
+    font-size: 16px;
+   /* padding: 17px;*/
+    transition: .6s;
+}
+	.newsimg:hover{
+    padding: 20px;
+    z-index: 9;
+		}

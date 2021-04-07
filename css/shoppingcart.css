@@ -1,0 +1,164 @@
+.top {
+    width: 1200px;
+    height: 140px;
+    position: relative;
+    top: 0px;
+}
+
+.searchform{
+	position: absolute;
+    left: 272px;
+    top: 100px;
+}
+.search p{
+	position: absolute;
+    left: 48px;
+    top: 14px;
+    font-size: 47px;
+    color: gray;
+}
+.searchform .f_1{
+    height: 50px;
+    width: 300px;
+    background: #d8d8d8;
+    padding: 10px;
+    color: #333;
+    outline: none;
+    box-shadow: none;
+    margin: 12px 0;
+    letter-spacing: 1px;
+    border-radius: 10px 10px 10px 10px;
+    border: solid #eee thin;
+    font-size: 21px;
+    transition: 1s;
+    position: absolute;
+    top: -90px;
+}
+.searchform .f_1:hover{
+   background:#ffff;
+}
+.searchform .f_2{
+	height: 50px;
+    width: 61px;
+    background: skyblue;
+    color: #333;
+    outline: none;
+    box-shadow: none;
+    margin: 12px 0;
+    letter-spacing: 1px;
+    border-radius: 10px 10px 10px 10px;
+    border: solid #eee thin;
+    font-size: 18px;
+    transition: 1s;
+    position: absolute;
+    top: -90px;
+    left: 309px;
+}
+.searchform .f_2:hover{
+	background-color: red;
+}
+.carbody{
+	    height: 800px;
+    width: 1315px;
+    background:white;
+    position: relative;
+    top: -41px;
+    left: 10px;
+    border: 0px;
+    border-radius: 10px;
+}
+	.car{
+		    position: relative;
+    top: 164px;
+    left: 429px;
+}
+	
+.dao{
+	    position: relative;
+    top: 219px;
+    left: 10px;
+    margin: 10px;
+    padding: 12px;
+    height: 320px;
+    width: 1149px;
+
+	}
+	.daotop{
+		font-size: 30px;
+	}
+	.dao ul li{
+		float: left;
+	}
+	.dao span{
+		font-size: 20px;
+	}
+	.dao_body1{
+		position: absolute;
+		 left: 92px;
+     transition: 1s;
+  /*   z-index: 999;*/
+	}
+	.dao_body1 img{
+		 width:280px;
+		 height:200px;
+		  transition: 1s;
+		}
+	.dao_body1 img:hover{
+		 width:300px;
+		 height:220px;
+	} 
+    .dao_body2{
+		position: absolute;
+		transition: 1s;
+		right: 465px;
+		/*z-index: 999;*/
+	}
+	.dao_body2 img{
+		 width:280px;
+		 height:200px;
+		  transition: 1s;
+		}
+	.dao_body2 img:hover{
+		 width:300px;
+		 height:220px;
+	} 
+	 .dao_body3{
+		position: absolute;
+		transition: 1s;
+		right:90px;
+	/*	z-index: 999;*/
+	}
+	.dao_body3 img{
+		 width:280px;
+		 height:200px;
+		  transition: 1s;
+		}
+	.dao_body3 img:hover{
+		 width:300px;
+		 height:220px;
+	} 
+	body{
+background-color:#eaeaea;
+/*overflow-x:hidden;*/
+	}
+.login{
+			       background: #d7e0ff;
+    height: 46px;
+    width: 76px;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: .5s;
+    border-radius: 10px 10px 10px 10px;
+    border: solid #eee thin;
+		}
+		.login:hover{
+			transition: 1s;
+			color: white;
+			background: #fd4747;
+		}
+		footer{
+           position: relative;
+           top:55px;
+        }
